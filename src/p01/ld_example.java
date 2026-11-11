@@ -21,7 +21,7 @@ public class ld_example {
 		greeting.accept("aa");
 		
 		public static void say(String name){
-			System.out.println(name + "반갑습니다");
+			System.out.println(name = "반갑습니다");
 		}		
 		
 		/*
