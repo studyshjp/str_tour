@@ -20,10 +20,11 @@ public class ld_example {
 		System.out.println(name + "반갑습니다");
 		greeting.accept("aa");
 		
+		/*
 		public static void say(String name){
-			System.out.println(name = "반갑습니다");
+			System.out.println(name = "안녕하세요");
 		}		
-		
+		*/
 		/*
 		// TODO Auto-generated method stub
 		//Runnable interface thread

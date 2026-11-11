@@ -106,7 +106,7 @@ public class MonsterLabApp {
         }
         scanner.close();
     }
-
+/*
     private static void printMenu() {
         System.out.println("\n--------------- 연구소 메뉴 ---------------");
         System.out.println("1. 몬스터 도감 보기");
@@ -114,7 +114,7 @@ public class MonsterLabApp {
         System.out.println("0. 연구소 종료");
         System.out.println("------------------------------------------");
     }
-
+*/
     private static void showMonsterList() {
         System.out.println("\n[전체 몬스터 도감]");
         // 먼저 익숙한 향상된 for문으로 한 마리씩 출력합니다.

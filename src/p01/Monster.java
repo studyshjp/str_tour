@@ -13,7 +13,10 @@ public class Monster {
     private String element;
 
     // 생성자: 새 몬스터를 만들 때 필요한 정보를 받습니다.
-    public Monster(String name, String grade, int level, int exp, String element) {
+    public Monster(String name, String grade, int level, 
+    		int exp, String element) {
+    	// this(name, grade, level, exp, "", 0);
+    	
         this.name = name;
         this.grade = grade;
         this.level = level;
@@ -28,7 +31,29 @@ public class Monster {
     public int getExp() { return exp; }
     public String getElement() { return element; }
 
-    // 도감에 표시할 정보를 한 줄의 문자열로 만들어 줍니다.
+    // getter / setter
+    
+    public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public void setLevel(int level) {
+		this.level = level;
+	}
+
+	public void setExp(int exp) {
+		this.exp = exp;
+	}
+
+	public void setElement(String element) {
+		this.element = element;
+	}
+
+	// 도감에 표시할 정보를 한 줄의 문자열로 만들어 줍니다.
     public String getInfo() {
         return name + " / " + grade + " / 레벨 " + level
                 + " / 경험치 " + exp + " / 속성 " + element;
