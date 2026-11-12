@@ -1,7 +1,7 @@
 package p01;
 
 import java.util.List;
-import java.util.jar.Attributes.Name;
+// import java.util.jar.Attributes.Name;
 
 public class testapp {
 
@@ -43,6 +43,13 @@ public class testapp {
 		// 
 		.map(monster -> monster.getName())
 		.forEach(name -> System.out.println(name));
+		
+		long totalCount = monsters.stream().count();
+		System.out.println("total =" + totalCount);
+		
+		// list
+		
+		
 		// .filter (monster -> monster.getLevel() >= 10);
 		// .filter(monster -> monster.getGrade().equals("ab"));
 		monsters.stream().forEach

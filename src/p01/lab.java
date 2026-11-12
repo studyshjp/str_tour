@@ -1,7 +1,7 @@
 package p01;
 
 public class lab {
-
+/*
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// interface : public = public static void에서 public
@@ -26,4 +26,8 @@ public class lab {
 		test.run();
 	}	
 	}
+	*/
+	
 	}
+	
+	

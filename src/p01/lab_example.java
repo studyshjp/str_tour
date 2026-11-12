@@ -36,7 +36,7 @@ public class lab_example extends lab {
 				 }
 				 */
 			// 3. 람다식
-			LabAction action = () -> System.out.println("환영합니다");
+			// LabAction action = () -> System.out.println("환영합니다");
 			
 			
 			// LabAction action = new WelcomeAction();
